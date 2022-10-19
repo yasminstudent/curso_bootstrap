@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8"> 
+    <!-- 
+      viewport = tela que será preenchida
+      width=device-width = viewport ocupa a largura do dispositivo
+      initial-scale=1 = define um zoom padrão de acordo com cada dispositivo
+      shrink-to-fit=no = o conteúdo n encolhe p/ caber no viewport/tela
+     -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <title> Alinhamento de texto </title>
+  </head>
+  <body>
+
+    <!-- Alinhamento de acordo com a tela -->
+    <p class="text-sm-center"> tela >= 576px </p> <!-- small -->
+    <p class="text-md-center"> tela >= 768px </p> <!-- medium -->
+    <p class="text-lg-center"> tela >= 992px </p> <!-- large -->
+    <p class="text-xl-center"> tela >= 1200px </p> <!-- extra large-->
+
+    <!-- Elemento em bloco para linha --> <br>
+    <h1 class="bg-success d-inline"> Lorem impsluer dajsd dacgo lucbos</h1>
+    <p class="bg-success d-inline"> lorem luocou guga trevo deulo boom</p>
+
+    <!-- Elemento em linha para bloco --> <br><br>
+    <span class="bg-success d-block"> Lorem impsluer dajsd dacgo lucbos</span>
+    <span class="bg-success d-block"> lorem luocou guga trevo deulo boom</span>
+
+    <!-- 
+        Elementos em linha: ficam do lado do outro
+        Elemento em bloco: permite aplicar margin e padding top
+     -->
+
+     <!-- Elemento em linha e bloco --> <br><br>
+     <div class="bg-warning">
+         <h3 class="bg-success d-inline-block"> Teste 01 </h3>
+         <h3 class="bg-success d-inline-block" style="margin-top: 50px; width: 400px;"> Teste 01 </h3>
+     </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
